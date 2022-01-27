@@ -27,7 +27,7 @@ public class Tietokantayhteys {
         return null;
     }
 
-    //metodi, jolla suoritetaan kyselyt:
+    //metodi, jolla suoritetaan kyselyt :
     public ResultSet execQuery(String query) {
         ResultSet result;
         try {
